@@ -1,0 +1,29 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding:0;
+    border-style: none;
+    outline: none;
+    color: #666666;
+    font: 14px '微软雅黑'；
+    
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix::after{
+    content:'';
+    clear: both;
+    display: block;
+    height: 0px;
+    line-height: 0px;
+}
+.wrap{
+    width: 980px;
+    margin: 0 auto;
+}
